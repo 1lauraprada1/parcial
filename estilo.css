@@ -1,0 +1,78 @@
+/* estilos generales */
+body{
+    font-family: "Arvo", serif;
+    margin: 0;
+    background-image: url("imagenes/fondo.png");
+    background-size: cover;
+    color: black;
+}
+
+/* encabezado */
+header{
+    background-color: black;
+    padding: 15px;
+}
+
+/* menu de navegacion */
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+/* los links */
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* clickeo de mouse */
+.menu a:hover{
+    color: red;
+}
+
+/* principal */
+main{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+/* titulos */
+h1{
+    text-align: center;
+    font-size: 38px;
+}
+
+h2{
+    color: darkred;
+}
+
+/* secciones */
+section{
+    margin-bottom: 30px;
+}
+
+/* imagen */
+img{
+    width: 800px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* cita */
+aside{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    margin: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
