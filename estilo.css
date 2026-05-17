@@ -75,4 +75,12 @@ aside{
     text-align: center;
     font-style: italic;
 }
+.galeria{
+    text-align: center;
+}
 
+.galeria img{
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
